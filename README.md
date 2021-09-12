@@ -13,3 +13,6 @@ This app is created for learning purpose on how we can implement django producti
 **Templates**
 
 We’ll also update TEMPLATES so that Django will look for a project-level templates folder. By default Django looks within each app for a templates folder, but organizing all templates in one space is easier to manage.
+
+
+**Note** : updating the DIRS setting means that Django will also look in this new folder; it will still look for any templates folders within an app.
